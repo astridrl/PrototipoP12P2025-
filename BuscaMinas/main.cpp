@@ -1,3 +1,10 @@
+//Mejoras buscaminas - Examen parcial 2
+//Documentacion por Astrid Fernanda Ruíz López
+// Carnet: 9959 25 2976
+// nombre del jugador, resultado obtenidO.
+//Además contarà con tres oportunidades de jugar (si en caso le explota alguna mina) en un tablero de 4 x 4.
+//Al final deberá desplegar los datos personales del jugador y el marcador obtenido (puntos
+//acumulados durante el juego) y el tiempo que durò su juego.
 #include <iostream>
 #include <unistd.h>
 #include "Juego.h"
@@ -13,7 +20,7 @@ int main()
     const int MINASENTABLERO = 3;
     const bool MODODESARROLLADOR = true;
     const int VIDASTABLERO = 3;
-    //Valores predeterminados la reduccion, tambien agragados al constructor de Config (Britany)
+    //Valores predeterminados la reduccion, tambien agragados al constructor de Config
     const int REDUCCIONPUNTOS= 3;
     Config configuracionJuego(FILASTABLERO, COLUMNASTABLERO, MINASENTABLERO, MODODESARROLLADOR, VIDASTABLERO, REDUCCIONPUNTOS);
     //Se agregaron las configuraciones de los puntos por celda y de la recuccion de puntos en el constructor Juego
@@ -43,16 +50,15 @@ int main()
                 configuracionJuego.menuConfiguracion();
                 break;
             }
-        case 2: //Agregué el parametro get de vidas ya que no estaba definido
-                //Agregué el registro del usuario
+        case 2: //Agregué el registro del usuario
             {
-                string nombre;
+                string nombre; //variable
                 cout << "\t\tIngrese su nombre de usuario: ";
                 cin.ignore();
                 getline(cin, nombre);
 
                 if (nombre.empty()) {
-                    nombre = "Invitado";
+                    nombre = "Invitado"; //si deja vacio el nombre se pondrá como invitado
                 }
                 juego.setUsuarioActual(nombre);
 

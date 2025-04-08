@@ -1,8 +1,14 @@
+//Mejoras buscaminas - Examen parcial 2
+//Documentacion por Astrid Fernanda Ruíz López
+// Carnet: 9959 25 2976
+// nombre del jugador, resultado obtenidO.
+//Además contarà con tres oportunidades de jugar (si en caso le explota alguna mina) en un tablero de 4 x 4.
+//Al final deberá desplegar los datos personales del jugador y el marcador obtenido (puntos
+//acumulados durante el juego) y el tiempo que durò su juego.
 #include "Juego.h"
 #include <fstream>
 #include <unistd.h>
-#include <chrono> // Agregue Biblioteca para que permite medir intervalos de tiempo con precisión.(Dulce Reyes)
-
+#include <chrono> // Agregue Biblioteca para que permite medir intervalos de tiempo con precisión.
 // Inicializacion de victorias y perdidas
 int Juego::victorias = 0;
 int Juego::perdidas = 0;
@@ -22,7 +28,7 @@ int Juego::columnaAleatoria()
     return this->aleatorio_en_rango(0, this->tablero.getAnchoTablero() - 1);
 }
 
-// Se agregaron las reducciones (Britany)
+// Se agregaron las reducciones
 Juego::Juego(Tablero tablero, int cantidadMinas, int vidas, int puntosPorMina)
 {
     this->tablero = tablero;
@@ -73,12 +79,12 @@ bool Juego::jugadorGana()
 // Mejora de vidas (Astrid)
 void Juego::iniciar()
 {
-    tiempoInicio = std::chrono::steady_clock::now(); // Iniciar el cronómetro: guarda el tiempo actual al inicio del juego. (Dulce Reyes)
+    tiempoInicio = std::chrono::steady_clock::now(); // Iniciar el cronómetro: guarda el tiempo actual al inicio del juego.
     std::cout << "El cronometro ha iniciado. ¡Buena suerte!" << std::endl;
     int fila, columna;
     while (true)
     {
-        auto tiempoActual = std::chrono::steady_clock::now(); // Mostrar el tiempo transcurrido en cada iteración del juego (Dulce Reyes)
+        auto tiempoActual = std::chrono::steady_clock::now(); // Mostrar el tiempo transcurrido en cada iteración del juego
         std::chrono::duration<double> duracion = tiempoActual - tiempoInicio;
         std::cout << "Tiempo transcurrido: " << duracion.count() << " segundos." << std::endl;
 

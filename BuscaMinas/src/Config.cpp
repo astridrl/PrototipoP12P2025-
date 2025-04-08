@@ -63,7 +63,7 @@ void Config::menuConfiguracion()
         case 4:
             {
                 this->setmodoDesarrolladorTablero(valorIngresado);
-                //Se agrego el verificador para el modo desarrollador (Britany)
+                //Se agrego el verificador para el modo desarrollador
                 if (valorIngresado !=0 && valorIngresado !=1){
                     cout << "\n\tValor fuera de los parametros ingrece 1 o 0\n" <<endl;
                 }

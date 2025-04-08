@@ -22,7 +22,7 @@ private:
     static int victorias;
     static int perdidas;
 
-    // Agregue Variables para el cronómetro (Dulce Reye)
+    // Agregue Variables para el cronómetro
     std::chrono::time_point<std::chrono::steady_clock> tiempoInicio, tiempoFin;
 
 public:
