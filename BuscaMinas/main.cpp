@@ -8,8 +8,8 @@ using namespace std;
 //Integración de vidas (Astrid)
 int main()
 {
-    const int FILASTABLERO = 5;
-    const int COLUMNASTABLERO = 5;
+    const int FILASTABLERO = 4;
+    const int COLUMNASTABLERO = 4;
     const int MINASENTABLERO = 3;
     const bool MODODESARROLLADOR = true;
     const int VIDASTABLERO = 3;
