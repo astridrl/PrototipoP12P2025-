@@ -1,3 +1,10 @@
+//Mejoras buscaminas - Examen parcial 2
+//Documentacion por Astrid Fernanda Ruíz López
+// Carnet: 9959 25 2976
+// nombre del jugador, resultado obtenidO.
+//Además contarà con tres oportunidades de jugar (si en caso le explota alguna mina) en un tablero de 4 x 4.
+//Al final deberá desplegar los datos personales del jugador y el marcador obtenido (puntos
+//acumulados durante el juego) y el tiempo que durò su juego.
 #ifndef CONFIG_H
 #define CONFIG_H
 
