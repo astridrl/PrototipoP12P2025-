@@ -1,0 +1,35 @@
+commit 57ef31b101d47d925de7c8d09853357e4de5a36a (HEAD -> main, origin/main, origin/HEAD)
+Author: [Astrid Ruíz] <[astridruizz05@gmail.com]>
+Date:   Tue Apr 8 11:13:03 2025 -0600
+
+    Ultimas modificaciones
+
+commit 067cb9e5ae158ee93b125905af76d69463b5e016
+Author: [Astrid Ruíz] <[astridruizz05@gmail.com]>
+Date:   Tue Apr 8 11:11:04 2025 -0600
+
+    Enviando documentación
+
+commit fb5d0955f1f6f62488d93e13290caa5d1e948feb
+Author: [Astrid Ruíz] <[astridruizz05@gmail.com]>
+Date:   Tue Apr 8 11:09:53 2025 -0600
+
+    Modificando punteo de usuario
+
+commit 2a352c80b3d1e02ab6c8614ac134ea8b9c1367a9
+Author: [Astrid Ruíz] <[astridruizz05@gmail.com]>
+Date:   Tue Apr 8 11:02:47 2025 -0600
+
+    Reduciendo limites de tablero 4x4
+
+commit bcbf6696cae32993cc27d568708639369d2eaacf
+Author: [Astrid Ruíz] <[astridruizz05@gmail.com]>
+Date:   Tue Apr 8 11:01:44 2025 -0600
+
+    Subiendo codigo base
+
+commit 39853e6a7b8b0faea0bfac0f7be147a3cb0e8ab9
+Author: astridrl <astridruizz05@gmail.com>
+Date:   Tue Apr 8 10:11:37 2025 -0600
+
+    Initial commit
