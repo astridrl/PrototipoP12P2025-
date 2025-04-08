@@ -408,36 +408,36 @@
 	"Celda.h"
 	<iostream>
 
-1742568096 c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\include\celda.h
+1744132246 c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\include\celda.h
 
 1743705098 source:c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\src\config.cpp
 	<iostream>
 	<unistd.h>
 	"Config.h"
 
-1743705072 c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\include\config.h
+1744132246 c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\include\config.h
 
-1743726237 source:c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\src\juego.cpp
+1744132149 source:c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\src\juego.cpp
 	"Juego.h"
 	<fstream>
 	<unistd.h>
 	<chrono>
 
-1743723838 c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\include\juego.h
+1744132246 c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\include\juego.h
 	"Tablero.h"
 	<chrono>
 
-1743672146 c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\include\tablero.h
+1744132246 c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\include\tablero.h
 	<iostream>
 	<vector>
 	"Celda.h"
 
-1743672146 source:c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\src\tablero.cpp
+1744132151 source:c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\src\tablero.cpp
 	"Tablero.h"
 	<sstream>
 	<iostream>
 
-1744129152 source:c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\main.cpp
+1744132142 source:c:\users\astri\onedrive\documentos\programación i\prototipop12p2025-\buscaminas\main.cpp
 	<iostream>
 	<unistd.h>
 	"Juego.h"
